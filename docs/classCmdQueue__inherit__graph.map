@@ -1,0 +1,4 @@
+<map id="CmdQueue" name="CmdQueue">
+<area shape="rect" id="node1" title="Очередь команд" alt="" coords="25,80,120,107"/>
+<area shape="rect" id="node2" href="$classICommandQueue.html" title="Интерфейс очереди команд" alt="" coords="5,5,140,32"/>
+</map>

@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -pthread -rdynamic CMakeFiles/test_Version.dir/version/test_Version.cpp.o -o test_Version  /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.71.0 libversion_lib.a 

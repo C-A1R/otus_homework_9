@@ -1,0 +1,17 @@
+OUTPUT_DIRECTORY       = @CMAKE_CURRENT_BINARY_DIR@/
+INPUT                  = @CMAKE_CURRENT_SOURCE_DIR@/ 
+
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = @PROJECT_NAME@
+PROJECT_NUMBER         = @PROJECT_VESRION@
+PROJECT_BRIEF          = "Пакетная обработка команд"
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = docs
+GENERATE_LATEX         = NO
+
+HAVE_DOT               = YES
+EXTRACT_ALL            = YES
+RECURSIVE              = YES
+
+EXTRACT_PRIVATE        = YES

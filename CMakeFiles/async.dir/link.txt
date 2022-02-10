@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -pthread -pthread -shared -Wl,-soname,libasync.so -o libasync.so CMakeFiles/async.dir/async.cpp.o CMakeFiles/async.dir/bulk.cpp.o CMakeFiles/async.dir/command/Cmd.cpp.o CMakeFiles/async.dir/command/MacroCmd.cpp.o CMakeFiles/async.dir/command_queue/CmdQueue.cpp.o CMakeFiles/async.dir/logger/ConsoleLogger.cpp.o CMakeFiles/async.dir/logger/FileLogger.cpp.o 
