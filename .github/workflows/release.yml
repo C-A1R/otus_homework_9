@@ -35,18 +35,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./async-0.0.${{ github.run_number }}-Linux.deb
-          asset_name: async-0.0.${{ github.run_number }}-Linux.deb
+          asset_path: ./bulk_server-0.0.${{ github.run_number }}-Linux.deb
+          asset_name: bulk_server-0.0.${{ github.run_number }}-Linux.deb
           asset_content_type: application/vnd.debian.binary-package
 
       - run: cmake --build . --target doc_doxygen
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@v1.1.0
         with:
-          doxyfile-path: "./src_lib/Doxyfile.in"
+          doxyfile-path: "./Doxyfile.in"
           working-directory: "."
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: "./src_lib"
+          publish_dir: "."
