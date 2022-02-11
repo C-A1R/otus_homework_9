@@ -3,7 +3,7 @@ INPUT                  = /home/runner/work/otus_homework_9/otus_homework_9/
 
 DOXYFILE_ENCODING      = UTF-8
 PROJECT_NAME           = bulk_server
-PROJECT_NUMBER         = 0.0.3
+PROJECT_NUMBER         = 0.0.4
 PROJECT_BRIEF          = "Пакетная обработка команд. Асинхронный сервер"
 
 GENERATE_HTML          = YES

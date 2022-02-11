@@ -1,10 +1,10 @@
-Start testing: Feb 11 01:23 UTC
+Start testing: Feb 11 01:29 UTC
 ----------------------------------------------------------
 1/3 Testing: test_Version
 1/3 Test: test_Version
 Command: "/home/runner/work/otus_homework_9/otus_homework_9/test_Version"
 Directory: /home/runner/work/otus_homework_9/otus_homework_9
-"test_Version" start time: Feb 11 01:23 UTC
+"test_Version" start time: Feb 11 01:29 UTC
 Output:
 ----------------------------------------------------------
 Running 1 test case...
@@ -15,7 +15,7 @@ Running 1 test case...
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"test_Version" end time: Feb 11 01:23 UTC
+"test_Version" end time: Feb 11 01:29 UTC
 "test_Version" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -23,7 +23,7 @@ Test Passed.
 2/3 Test: test_ICommand
 Command: "/home/runner/work/otus_homework_9/otus_homework_9/test_ICommand"
 Directory: /home/runner/work/otus_homework_9/otus_homework_9
-"test_ICommand" start time: Feb 11 01:23 UTC
+"test_ICommand" start time: Feb 11 01:29 UTC
 Output:
 ----------------------------------------------------------
 Running 4 test cases...
@@ -34,7 +34,7 @@ Running 4 test cases...
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"test_ICommand" end time: Feb 11 01:23 UTC
+"test_ICommand" end time: Feb 11 01:29 UTC
 "test_ICommand" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -42,7 +42,7 @@ Test Passed.
 3/3 Test: test_ICommandQueue
 Command: "/home/runner/work/otus_homework_9/otus_homework_9/test_ICommandQueue"
 Directory: /home/runner/work/otus_homework_9/otus_homework_9
-"test_ICommandQueue" start time: Feb 11 01:23 UTC
+"test_ICommandQueue" start time: Feb 11 01:29 UTC
 Output:
 ----------------------------------------------------------
 Running 4 test cases...
@@ -53,8 +53,8 @@ Running 4 test cases...
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"test_ICommandQueue" end time: Feb 11 01:23 UTC
+"test_ICommandQueue" end time: Feb 11 01:29 UTC
 "test_ICommandQueue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 11 01:23 UTC
+End testing: Feb 11 01:29 UTC
