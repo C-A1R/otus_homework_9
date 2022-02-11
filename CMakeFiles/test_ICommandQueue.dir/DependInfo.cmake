@@ -8,15 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/runner/work/otus_homework_9/otus_homework_9/src_lib/_tests/test_ICommandQueue.cpp" "src_lib/CMakeFiles/test_ICommandQueue.dir/_tests/test_ICommandQueue.cpp.o" "gcc" "src_lib/CMakeFiles/test_ICommandQueue.dir/_tests/test_ICommandQueue.cpp.o.d"
-  "/home/runner/work/otus_homework_9/otus_homework_9/src_lib/command/Cmd.cpp" "src_lib/CMakeFiles/test_ICommandQueue.dir/command/Cmd.cpp.o" "gcc" "src_lib/CMakeFiles/test_ICommandQueue.dir/command/Cmd.cpp.o.d"
-  "/home/runner/work/otus_homework_9/otus_homework_9/src_lib/command/MacroCmd.cpp" "src_lib/CMakeFiles/test_ICommandQueue.dir/command/MacroCmd.cpp.o" "gcc" "src_lib/CMakeFiles/test_ICommandQueue.dir/command/MacroCmd.cpp.o.d"
-  "/home/runner/work/otus_homework_9/otus_homework_9/src_lib/command_queue/CmdQueue.cpp" "src_lib/CMakeFiles/test_ICommandQueue.dir/command_queue/CmdQueue.cpp.o" "gcc" "src_lib/CMakeFiles/test_ICommandQueue.dir/command_queue/CmdQueue.cpp.o.d"
+  "/home/runner/work/otus_homework_9/otus_homework_9/src/_tests/test_ICommandQueue.cpp" "CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.o" "gcc" "CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.o.d"
+  "/home/runner/work/otus_homework_9/otus_homework_9/src/command/Cmd.cpp" "CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.o" "gcc" "CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.o.d"
+  "/home/runner/work/otus_homework_9/otus_homework_9/src/command/MacroCmd.cpp" "CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.o" "gcc" "CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.o.d"
+  "/home/runner/work/otus_homework_9/otus_homework_9/src/command_queue/CmdQueue.cpp" "CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.o" "gcc" "CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/runner/work/otus_homework_9/otus_homework_9/src_lib/CMakeFiles/async.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

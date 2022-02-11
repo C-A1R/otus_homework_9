@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['version_178',['version',['../versionLib_8cpp.html#ae64f17a84dc9c7144d1036498ff26fd9',1,'version():&#160;versionLib.cpp'],['../versionLib_8h.html#ae64f17a84dc9c7144d1036498ff26fd9',1,'version():&#160;versionLib.cpp']]]
+  ['worker_215',['worker',['../classConsoleLogger.html#af1610f06acceb74d2a72569404e18d78',1,'ConsoleLogger::worker()'],['../classFileLogger.html#af015c5f93514b3e22c2c644d1a703c09',1,'FileLogger::worker()']]]
 ];

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/runner/work/otus_homework_9/otus_homework_9/src_lib
+CXX_INCLUDES = -I/home/runner/work/otus_homework_9/otus_homework_9
 
-CXX_FLAGS =  -pthread -pthread -Wall -Wextra -pedantic -Werror -std=gnu++17
+CXX_FLAGS =  -pthread -Wall -Wextra -pedantic -Werror -std=gnu++17
 

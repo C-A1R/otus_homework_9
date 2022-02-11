@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classBulkCommander.html" title="Аккумулирует и управляет обработчиками команд" alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,192,57"/>
+<area shape="rect" id="node2" href="$classBulkServer.html" title=" " alt="" coords="240,5,333,32"/>
+<area shape="rect" id="node3" href="$classSession.html" title=" " alt="" coords="251,56,323,83"/>
 </map>

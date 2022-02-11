@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>async: Class Members</title>
+<title>bulk_server: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,10 +21,10 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">async
-   &#160;<span id="projectnumber">0.0.1</span>
+   <div id="projectname">bulk_server
+   &#160;<span id="projectnumber">0.0.3</span>
    </div>
-   <div id="projectbrief">Пакетная обработка команд</div>
+   <div id="projectbrief">Пакетная обработка команд. Асинхронный сервер</div>
   </td>
  </tr>
  </tbody>
@@ -66,15 +66,19 @@ $(function() {
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index__5F"></a>- _ -</h3><ul>
+<li>_acceptor
+: <a class="el" href="classBulkServer.html#abde2f31b83036574bc97de11229159b9">BulkServer</a>
+</li>
 <li>_blockSize
 : <a class="el" href="classCmdQueue.html#a349729e797d4798cec97fa726ad0da77">CmdQueue</a>
-</li>
-<li>_bulks
-: <a class="el" href="classBulkCommander.html#a7856d7539eb56c4f723871c3a0faa6ef">BulkCommander</a>
 </li>
 <li>_commands
 : <a class="el" href="classCmdQueue.html#a34d0ae1e2a49f775b0a62eb63517d561">CmdQueue</a>
 , <a class="el" href="classMacroCmd.html#a144c781c992df47f02eb022f4f8816ef">MacroCmd</a>
+</li>
+<li>_commandsQueue
+: <a class="el" href="classBulkServer.html#a33f1bd3a1772436f538e194d1955ceab">BulkServer</a>
+, <a class="el" href="classSession.html#ac7cd5a8a75902d27d5e9aa304a933386">Session</a>
 </li>
 <li>_count
 : <a class="el" href="classFileLogger.html#ac2fe46a209c329ddcfc5ac489a159ff1">FileLogger</a>
@@ -86,6 +90,9 @@ $(function() {
 : <a class="el" href="classConsoleLogger.html#a00db5fb1a50cab0398068ed023c81f7f">ConsoleLogger</a>
 , <a class="el" href="classFileLogger.html#a5867e93cdb3481a4256b503d79118b12">FileLogger</a>
 </li>
+<li>_data
+: <a class="el" href="classSession.html#a5a874b0ee39713f631dfc3405be018b1">Session</a>
+</li>
 <li>_loggers
 : <a class="el" href="classCmdQueue.html#ab6775eba733255928b9a0869b6baba04">CmdQueue</a>
 </li>
@@ -93,12 +100,25 @@ $(function() {
 : <a class="el" href="classConsoleLogger.html#a9be45064f940a11b6c1f6ad3e65dce61">ConsoleLogger</a>
 , <a class="el" href="classFileLogger.html#ad315e970d38bac03cc76a47e69737c7d">FileLogger</a>
 </li>
+<li>_m
+: <a class="el" href="classSession.html#a36869909c427d604fe0e83b242d5f9bc">Session</a>
+</li>
 <li>_macroCommands
 : <a class="el" href="classCmdQueue.html#a919b9543f4a2edd47ba043fe02d34801">CmdQueue</a>
 </li>
+<li>_macroEnabled
+: <a class="el" href="classSession.html#a6228f5581490c18e66332f1808d8442f">Session</a>
+</li>
+<li>_macroQueue
+: <a class="el" href="classSession.html#a264e8d74caa8cf23dce73a6f0e29f264">Session</a>
+</li>
 <li>_mtx
-: <a class="el" href="classConsoleLogger.html#a50e214f337202de8462cf5935c71bdd5">ConsoleLogger</a>
+: <a class="el" href="classBulkServer.html#a228b30501c358a8402db41cc4a3f484f">BulkServer</a>
+, <a class="el" href="classConsoleLogger.html#a50e214f337202de8462cf5935c71bdd5">ConsoleLogger</a>
 , <a class="el" href="classFileLogger.html#a8f08f549e3b9e4e08878a89c50f13405">FileLogger</a>
+</li>
+<li>_socket
+: <a class="el" href="classSession.html#ab18d5bb8dd24f1c3031a1c77049055a3">Session</a>
 </li>
 <li>_stoped
 : <a class="el" href="classConsoleLogger.html#aa7e5af5d843a9e1a2095ba12d5733d59">ConsoleLogger</a>
@@ -131,11 +151,8 @@ $(function() {
 
 
 <h3><a id="index_b"></a>- b -</h3><ul>
-<li>Bulk()
-: <a class="el" href="classBulkCommander_1_1Bulk.html#a7984e50aa0c0e41277e6d65bc3628378">BulkCommander::Bulk</a>
-</li>
-<li>BulkCommander()
-: <a class="el" href="classBulkCommander.html#ab41d612d0e71e3fe5f27bb2d2b8a3f5f">BulkCommander</a>
+<li>BulkServer()
+: <a class="el" href="classBulkServer.html#ac04f8b8260bbce0e047315feaec65265">BulkServer</a>
 </li>
 </ul>
 
@@ -147,14 +164,18 @@ $(function() {
 <li>CmdQueue()
 : <a class="el" href="classCmdQueue.html#ab763fa58ca27d583d23a7248dcf8f93f">CmdQueue</a>
 </li>
-<li>commands
-: <a class="el" href="classBulkCommander_1_1Bulk.html#a362a89b414a76ffa471ece1b98c8cdd7">BulkCommander::Bulk</a>
-</li>
 <li>ConsoleLogger()
 : <a class="el" href="classConsoleLogger.html#a5dc25889c50a89a91bce5b1d4f3dd46a">ConsoleLogger</a>
 </li>
-<li>createNewBulk()
-: <a class="el" href="classBulkCommander.html#a1641bffedadfd049bdbf3e24a7e9ca2d">BulkCommander</a>
+</ul>
+
+
+<h3><a id="index_d"></a>- d -</h3><ul>
+<li>do_accept()
+: <a class="el" href="classBulkServer.html#a4468e8c46cde3846ffce8d8f37750ca8">BulkServer</a>
+</li>
+<li>do_read()
+: <a class="el" href="classSession.html#a121783ddf71dfcc3fab4d90c2daeecd2">Session</a>
 </li>
 </ul>
 
@@ -217,18 +238,28 @@ $(function() {
 <li>MacroCmd()
 : <a class="el" href="classMacroCmd.html#a74f63983a5e18b7d010c100ff2a36c19">MacroCmd</a>
 </li>
+<li>max_length
+: <a class="el" href="classSession.html#a9251d35017dc98d7e0531db8ce4eadfba91789f09a8674b8daa03927e3ceb7df4">Session</a>
+</li>
 </ul>
 
 
 <h3><a id="index_p"></a>- p -</h3><ul>
+<li>parseData()
+: <a class="el" href="classSession.html#adc62c817e3957ca5e107478708f93f48">Session</a>
+</li>
 <li>printNext()
 : <a class="el" href="classFileLogger.html#ae41191db523da9234276842f9097e69c">FileLogger</a>
 </li>
 <li>push()
-: <a class="el" href="classBulkCommander_1_1Bulk.html#afde7e2630f5b7997a9e7cfebb6667f2a">BulkCommander::Bulk</a>
-, <a class="el" href="classBulkCommander.html#a1999b90aa4db1e48818c3cc2ff9c0164">BulkCommander</a>
-, <a class="el" href="classCmdQueue.html#aed3c2772a5966a5ec8c271f6a56ab5c7">CmdQueue</a>
+: <a class="el" href="classCmdQueue.html#aed3c2772a5966a5ec8c271f6a56ab5c7">CmdQueue</a>
 , <a class="el" href="classICommandQueue.html#aebbe17eeb08572b68f40a58415949ab9">ICommandQueue</a>
+</li>
+<li>pushCommand()
+: <a class="el" href="classBulkServer.html#adee673888664adb492ba8264cb5eea85">BulkServer</a>
+</li>
+<li>pushLine()
+: <a class="el" href="classSession.html#a387b87065d725c10fda48aa48afdb3f4">Session</a>
 </li>
 <li>pushLog()
 : <a class="el" href="classConsoleLogger.html#a341448de0ab2414d81e2f9b019a9d04d">ConsoleLogger</a>
@@ -238,17 +269,16 @@ $(function() {
 </ul>
 
 
-<h3><a id="index_r"></a>- r -</h3><ul>
-<li>removeBulk()
-: <a class="el" href="classBulkCommander.html#afe2641bc0a12e270e284ad9adf6060d1">BulkCommander</a>
-</li>
-</ul>
-
-
 <h3><a id="index_s"></a>- s -</h3><ul>
+<li>Session()
+: <a class="el" href="classSession.html#a70fb5d76854241575e1dedbbc2b7e32e">Session</a>
+</li>
 <li>size()
 : <a class="el" href="classCmdQueue.html#a11247544af8d57b7f87f3c6f952f6e68">CmdQueue</a>
 , <a class="el" href="classICommandQueue.html#a27e773defbf2ca08260e60863c1d9fd4">ICommandQueue</a>
+</li>
+<li>start()
+: <a class="el" href="classSession.html#a47baf956cead0046fcbac45c572c70d3">Session</a>
 </li>
 <li>startMacros()
 : <a class="el" href="classCmdQueue.html#ab7bcb1c35663f33cc119706220ca2efd">CmdQueue</a>
@@ -266,12 +296,6 @@ $(function() {
 
 
 <h3><a id="index__7E"></a>- ~ -</h3><ul>
-<li>~Bulk()
-: <a class="el" href="classBulkCommander_1_1Bulk.html#a5b2197971f1809b25a164055bfa73497">BulkCommander::Bulk</a>
-</li>
-<li>~BulkCommander()
-: <a class="el" href="classBulkCommander.html#a533fe4188d67d65202610cc8a7bcbfdf">BulkCommander</a>
-</li>
 <li>~ConsoleLogger()
 : <a class="el" href="classConsoleLogger.html#a242e88aa9495249d5a7fbdfc4f8886ee">ConsoleLogger</a>
 </li>

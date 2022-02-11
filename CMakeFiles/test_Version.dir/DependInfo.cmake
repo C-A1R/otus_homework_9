@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/runner/work/otus_homework_9/otus_homework_9/src_lib/version/test_Version.cpp" "src_lib/CMakeFiles/test_Version.dir/version/test_Version.cpp.o" "gcc" "src_lib/CMakeFiles/test_Version.dir/version/test_Version.cpp.o.d"
+  "/home/runner/work/otus_homework_9/otus_homework_9/src/version/test_Version.cpp" "CMakeFiles/test_Version.dir/src/version/test_Version.cpp.o" "gcc" "CMakeFiles/test_Version.dir/src/version/test_Version.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/runner/work/otus_homework_9/otus_homework_9/src_lib/CMakeFiles/version_lib.dir/DependInfo.cmake"
+  "/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/version_lib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

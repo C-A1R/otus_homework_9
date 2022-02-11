@@ -1,10 +1,10 @@
-OUTPUT_DIRECTORY       = /home/runner/work/otus_homework_9/otus_homework_9/src_lib/
-INPUT                  = /home/runner/work/otus_homework_9/otus_homework_9/src_lib/ 
+OUTPUT_DIRECTORY       = /home/runner/work/otus_homework_9/otus_homework_9/
+INPUT                  = /home/runner/work/otus_homework_9/otus_homework_9/ 
 
 DOXYFILE_ENCODING      = UTF-8
-PROJECT_NAME           = async
-PROJECT_NUMBER         = 0.0.1
-PROJECT_BRIEF          = "Пакетная обработка команд"
+PROJECT_NAME           = bulk_server
+PROJECT_NUMBER         = 0.0.3
+PROJECT_BRIEF          = "Пакетная обработка команд. Асинхронный сервер"
 
 GENERATE_HTML          = YES
 HTML_OUTPUT            = docs

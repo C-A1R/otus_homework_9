@@ -8,14 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/runner/work/otus_homework_9/otus_homework_9/src_lib/_tests/test_ICommand.cpp" "src_lib/CMakeFiles/test_ICommand.dir/_tests/test_ICommand.cpp.o" "gcc" "src_lib/CMakeFiles/test_ICommand.dir/_tests/test_ICommand.cpp.o.d"
-  "/home/runner/work/otus_homework_9/otus_homework_9/src_lib/command/Cmd.cpp" "src_lib/CMakeFiles/test_ICommand.dir/command/Cmd.cpp.o" "gcc" "src_lib/CMakeFiles/test_ICommand.dir/command/Cmd.cpp.o.d"
-  "/home/runner/work/otus_homework_9/otus_homework_9/src_lib/command/MacroCmd.cpp" "src_lib/CMakeFiles/test_ICommand.dir/command/MacroCmd.cpp.o" "gcc" "src_lib/CMakeFiles/test_ICommand.dir/command/MacroCmd.cpp.o.d"
+  "/home/runner/work/otus_homework_9/otus_homework_9/src/_tests/test_ICommand.cpp" "CMakeFiles/test_ICommand.dir/src/_tests/test_ICommand.cpp.o" "gcc" "CMakeFiles/test_ICommand.dir/src/_tests/test_ICommand.cpp.o.d"
+  "/home/runner/work/otus_homework_9/otus_homework_9/src/command/Cmd.cpp" "CMakeFiles/test_ICommand.dir/src/command/Cmd.cpp.o" "gcc" "CMakeFiles/test_ICommand.dir/src/command/Cmd.cpp.o.d"
+  "/home/runner/work/otus_homework_9/otus_homework_9/src/command/MacroCmd.cpp" "CMakeFiles/test_ICommand.dir/src/command/MacroCmd.cpp.o" "gcc" "CMakeFiles/test_ICommand.dir/src/command/MacroCmd.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/runner/work/otus_homework_9/otus_homework_9/src_lib/CMakeFiles/async.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

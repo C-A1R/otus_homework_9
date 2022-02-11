@@ -1,0 +1,9 @@
+Architecture: amd64
+Description: bulk_server built using CMake
+Maintainer: example@example.com
+Package: bulk_server
+Priority: optional
+Section: devel
+Version: 0.0.3
+Installed-Size: 902
+

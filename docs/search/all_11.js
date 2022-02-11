@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['wl_91',['Wl',['../async_8dir_2link_8txt.html#a453ce23335a892b92f30fd21c5b7bb85',1,'Wl():&#160;link.txt'],['../test__ICommand_8dir_2link_8txt.html#a0d985c0cc7fe18129a1213a0c7eafb86',1,'Wl():&#160;link.txt'],['../test__ICommandQueue_8dir_2link_8txt.html#a092bb60fa491140bd1b4e0d59cad0b07',1,'Wl():&#160;link.txt']]],
-  ['worker_92',['worker',['../classConsoleLogger.html#af1610f06acceb74d2a72569404e18d78',1,'ConsoleLogger::worker()'],['../classFileLogger.html#af015c5f93514b3e22c2c644d1a703c09',1,'FileLogger::worker()']]]
+  ['_7econsolelogger_120',['~ConsoleLogger',['../classConsoleLogger.html#a242e88aa9495249d5a7fbdfc4f8886ee',1,'ConsoleLogger']]],
+  ['_7efilelogger_121',['~FileLogger',['../classFileLogger.html#ab08af44f2de3fe1b51158132f9a399dd',1,'FileLogger']]],
+  ['_7eicommand_122',['~ICommand',['../classICommand.html#aa8a6346c5a0dcfe7fd49413a69e854ef',1,'ICommand']]],
+  ['_7eicommandqueue_123',['~ICommandQueue',['../classICommandQueue.html#a7877f6db3e03f8569f1d537ca74f0553',1,'ICommandQueue']]],
+  ['_7eilogger_124',['~ILogger',['../classILogger.html#ad5d37badb7f177d73bb0344109ff847d',1,'ILogger']]]
 ];

@@ -6,5 +6,5 @@ CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_TEST_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWO
 
 CXX_INCLUDES = 
 
-CXX_FLAGS =  -pthread -pthread -Wall -Wextra -pedantic -Werror -std=gnu++17
+CXX_FLAGS =  -pthread -Wall -Wextra -pedantic -Werror -std=gnu++17
 

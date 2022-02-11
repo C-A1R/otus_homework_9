@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/version_lib.dir/version/versionLib.cpp.o"
-  "CMakeFiles/version_lib.dir/version/versionLib.cpp.o.d"
+  "CMakeFiles/version_lib.dir/src/version/versionLib.cpp.o"
+  "CMakeFiles/version_lib.dir/src/version/versionLib.cpp.o.d"
   "libversion_lib.a"
   "libversion_lib.pdb"
 )

@@ -4,7 +4,7 @@ INPUT                  = @CMAKE_CURRENT_SOURCE_DIR@/
 DOXYFILE_ENCODING      = UTF-8
 PROJECT_NAME           = @PROJECT_NAME@
 PROJECT_NUMBER         = @PROJECT_VESRION@
-PROJECT_BRIEF          = "Пакетная обработка команд"
+PROJECT_BRIEF          = "Пакетная обработка команд. Асинхронный сервер"
 
 GENERATE_HTML          = YES
 HTML_OUTPUT            = docs

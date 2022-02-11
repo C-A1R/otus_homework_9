@@ -1,0 +1,15 @@
+/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/doc_doxygen.dir
+/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/bulk_server.dir
+/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/version_lib.dir
+/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/test_Version.dir
+/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/test_ICommand.dir
+/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/test_ICommandQueue.dir
+/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/package.dir
+/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/package_source.dir
+/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/test.dir
+/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/edit_cache.dir
+/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/rebuild_cache.dir
+/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/list_install_components.dir
+/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/install.dir
+/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/install/local.dir
+/home/runner/work/otus_homework_9/otus_homework_9/CMakeFiles/install/strip.dir
