@@ -84,15 +84,13 @@ target_link_libraries(test_Version
 )
 target_link_libraries(test_ICommand
     ${Boost_LIBRARIES}
-    async
 )
 target_link_libraries(test_ICommandQueue
     ${Boost_LIBRARIES}
-    async
 )
 
 if (MSVC)
-    target_compile_options(async PRIVATE
+    target_compile_options(bulk_server PRIVATE
         /W4
     )
     target_compile_options(version_lib PRIVATE
