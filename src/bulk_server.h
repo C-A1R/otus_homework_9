@@ -7,7 +7,7 @@ class ICommandQueue;
 
 using boost::asio::ip::tcp;
 
-class BulkServer : public std::enable_shared_from_this<BulkServer>
+class BulkServer
 {
     std::mutex _mtx;
     tcp::acceptor _acceptor;
